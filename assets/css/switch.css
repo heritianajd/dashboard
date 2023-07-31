@@ -1,0 +1,37 @@
+
+/* switch */
+.switch-input {
+    display: none; 
+  }
+  
+  .switch-label {
+    display: inline-block;
+    width: 43px; 
+    height: 24px;
+    background: #BCC1CAFF;
+    border-radius: 15px;
+    position: relative;
+    cursor: pointer;
+    transition: background-color 0.3s;
+  }
+  
+  .switch-label::before {
+    content: '';
+    position: absolute;
+    top: 2px;
+    top: 2px;
+    left: 2px;
+    width: 20px;
+    height: 20px;
+    border-radius: 50%;
+    background-color: white;
+    transition: left 0.3s;
+  }
+  
+  .switch-input:checked + .switch-label {
+    background: #00BDD6FF;
+  }
+  
+  .switch-input:checked + .switch-label::before {
+    left: calc(100% - 28px);
+  }

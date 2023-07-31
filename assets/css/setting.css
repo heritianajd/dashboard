@@ -1,0 +1,231 @@
+@font-face{
+    font-family: 'Epilogue';
+    src: url(../fonts/epilogue/static/Epilogue-Bold.ttf),
+        url(../fonts/epilogue/static/Epilogue-ExtraLight.ttf),
+        url(../fonts/epilogue/static/Epilogue-LightItalic.ttf),
+        url(../fonts/epilogue/static/Epilogue-Medium.ttf);
+    }
+
+@font-face{
+    font-family: 'Inter';
+    src: url(../fonts/inter/static/Inter-SemiBold.ttf);
+}
+
+* {
+    margin: 0;
+    padding: 0;
+}
+
+h1, h2, h3, h4, h5, h6{
+    margin: 0!important;
+}
+
+.setting{
+    margin-left: 18%;
+    padding: 48px 56px;
+}
+
+#setting-section1{
+    display: flex;
+    justify-content: space-between;
+}
+
+.setting-tablet img{
+    width: 300px;
+}
+
+.setting-used-credit img{
+    width: 193px; 
+}
+
+.title-connected h1{
+    font-size: 24px; 
+    line-height: 36px; 
+    color: #171A1FFF;
+    font-family: 'Epilogue';
+}
+
+.title-connected p{
+    font-size: 16px; 
+    line-height: 26px; 
+    color: #6E7787FF;
+    font-family: 'Inter';
+}
+
+.setting-connected-apps{
+    display: flex;
+    flex-direction: column;
+    gap: 32px;
+}
+
+.setting-tablet{
+    display: flex;
+    gap: 28px;
+}
+
+.setting-tablet-text{
+    padding-top: 30px;
+}
+.setting-tablet-text h3{
+    font-size: 16px; 
+    line-height: 26px; 
+    color: #323842FF;
+    font-family: 'Inter';
+}
+.setting-tablet-text p{
+    font-size: 14px; 
+    line-height: 22px; 
+    color: #6E7787FF;
+    font-family: 'Inter';
+}
+
+.setting-button-connected{
+    display: flex;
+    gap: 12px;
+    margin-top: 16px;
+}
+.dismiss-button-connected{
+    font-size: 12px; 
+    line-height: 20px; 
+    color: #9095A0FF;
+    font-family: 'Inter';
+    background: #00000000; 
+    border-radius: 3px;
+    border: 1px #9095A0FF solid;
+    padding: 6px 20px;
+}
+.dismiss-button-connected:hover{
+    color: #6E7787FF;
+}
+.dismiss-button-connected:active{
+    color: #565E6CFF;
+}
+.update-button-connected{
+    font-size: 12px; 
+    line-height: 20px; 
+    color: #FFFFFFFF; 
+    background: #00BDD6FF;
+    border: none; 
+    border-radius: 3px;
+    font-family: 'Inter';
+    padding: 6px 20px;
+}
+.update-button-connected:hover{
+    background: #00A9C0FF;
+}
+.update-button-connected:active{
+    background: #0095A9FF;
+}
+
+.setting-used-credit{
+    max-width: 26%;
+    padding: 38px 15px 20px 15px;
+    border-radius: 8px; 
+    border: 1px #F3F4F6FF solid;
+    text-align: center;
+}
+.setting-used-credit img{
+    width: 70%;
+}
+
+.used-credit-text{
+    margin-top: -32px;
+}
+.used-credit-text h3{
+    font-size: 16px; 
+    line-height: 26px; 
+    color: #171A1FFF;
+    font-family: 'Epilogue';
+}
+.used-credit-text p{
+    font-size: 12px; 
+    line-height: 20px; 
+    color: #424955FF;
+    font-family: 'Inter';
+}
+
+.setting-button-used{
+    display: flex;
+    gap: 10px;
+    justify-content: center;
+    margin-top: 16px;
+}
+.dismiss-button-used{
+    font-size: 12px; 
+    line-height: 20px; 
+    color: #9095A0FF;
+    font-family: 'Inter';
+    background: #00000000; 
+    border-radius: 3px;
+    border: 1px #9095A0FF solid;
+    padding: 8px;
+}
+.dismiss-button-used:hover{
+    background: #F3F4F6FF;
+}
+.dismiss-button-used:active{
+    background: #DEE1E6FF;
+}
+.update-button-used{
+    font-size: 12px; 
+    line-height: 20px; 
+    color: #8353E2FF;
+    background: #F5F2FDFF;
+    border: none; 
+    border-radius: 3px;
+    font-family: 'Inter';
+    padding: 8px;
+}
+.update-button-used:hover{
+    background: #E7DEF9FF;
+}
+.update-button-used:active{
+    background: #D9CBF6FF;
+}
+
+.pourcentage-used-credit{
+    font-size: 24px; 
+    line-height: 36px; 
+    color: #8353E2FF;
+    font-family: 'Epilogue';
+    margin-bottom: 24px;
+}
+
+.setting-network{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.setting-social-media{
+    display: flex;
+    align-items: center;
+    gap: 24px;
+}
+.setting-social-media img{
+    width: 44px;
+    height: 44px;
+}
+.social-media-text h4{
+    font-size: 14px; 
+    line-height: 22px; 
+    color: #171A1FFF;
+    font-family: 'Inter';
+}
+.social-media-text p{
+    font-size: 14px; 
+    line-height: 22px; 
+    color: #6E7787FF;
+    font-family: 'Inter';
+}
+
+.social-media-connected{
+    display: flex;
+    gap: 25px;
+    align-items: center;
+}
+.social-media-connected p{
+    font-size: 14px; 
+    line-height: 22px; 
+    color: #323842FF;
+}

@@ -1,3 +1,16 @@
+@font-face{
+    font-family: 'Epilogue';
+    src: url(../fonts/epilogue/static/Epilogue-Bold.ttf),
+        url(../fonts/epilogue/static/Epilogue-ExtraLight.ttf),
+        url(../fonts/epilogue/static/Epilogue-LightItalic.ttf),
+        url(../fonts/epilogue/static/Epilogue-Medium.ttf);
+    }
+
+@font-face{
+    font-family: 'Inter';
+    src: url(../fonts/inter/static/Inter-SemiBold.ttf);
+}
+
 * {
     margin: 0;
     padding: 0;
