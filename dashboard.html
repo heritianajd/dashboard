@@ -1,0 +1,253 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Dashboard</title>
+    <link rel="stylesheet" href="assets/css/dashboard.css">
+    <link rel="stylesheet" href="assets/css/sidebar.css">
+    <link rel="stylesheet" href="https://www.w3schools.com/w3css/4/w3.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css"
+     integrity="sha512-iecdLmaskl7CVkqkXNQ/ZH/XLlvWZOJyj7Yy7tcenmpD1ypASozpmT/E0iPtmFIB46ZmdtAc9eNBvH0H/ZpiBw=="
+    crossorigin="anonymous" referrerpolicy="no-referrer" />
+</head>
+<body>
+    <section id="sidebar">
+        <a class="sidebar-head" href="dashboard.html">
+            <div class="sidebar-content-head">
+                <img src="assets/photos/dashboard/sidebar-logo.png" alt="">
+                <div class="sidebar-head-text">
+                    <h3 class="w3-bar-item">Project name</h3>
+                    <p>Category</p>
+                </div>
+            </div>
+        </a>
+        <div class="sidebar-container ">
+            <ul>
+                <li style="background: #00BDD6FF;border-radius: 4px;" class="sidebar-link-page">
+                    <img src="assets/photos/dashboard/square-white.png" alt="">
+                    <a style="color: white;" href="dashboard.html" class="w3-bar-item ">Dashboard</a>
+                </li>
+                <li class="sidebar-link-page">
+                    <img class="sidebar-icone-simple" src="assets/photos/dashboard/project.png" alt="">
+                    <img class="sidebar-icone-hover" src="assets/photos/dashboard/project-white.png" alt="square_white">
+                    <a href="#" class="w3-bar-item  ">Projects</a>
+                </li>
+                <li class="sidebar-link-page">
+                    <img class="sidebar-icone-simple" src="assets/photos/dashboard/calendar.png" alt="">
+                    <img class="sidebar-icone-hover" src="assets/photos/dashboard/calendar-white.png" alt="">
+                    <a href="calendar.html" class="w3-bar-item  ">Calendar</a>
+                </li>
+                <li class="sidebar-link-page">
+                    <img class="sidebar-icone-simple" src="assets/photos/dashboard/user-acount.png" alt="">
+                    <img class="sidebar-icone-hover" src="assets/photos/dashboard/user-acount-white.png" alt="square_white">
+                    <a href="#" class="w3-bar-item  ">Teams</a>
+                </li>
+                <li class="sidebar-link-page">
+                    <img class="sidebar-icone-simple" src="assets/photos/dashboard/analystec.png" alt="">
+                    <img class="sidebar-icone-hover" src="assets/photos/dashboard/analustec-white.png" alt="square_white">
+                    <a href="#" class="w3-bar-item  ">Analytics</a>
+                </li>
+                <li class="sidebar-link-page">
+                    <img class="sidebar-icone-simple" src="assets/photos/dashboard/code.png" alt="">
+                    <img class="sidebar-icone-hover" src="assets/photos/dashboard/code-white.png" alt="square_white">
+                    <a href="setting.html" class="w3-bar-item ">Integrations</a>
+                </li>
+                <li class="sidebar-link-page">
+                    <img class="sidebar-icone-simple" src="assets/photos/dashboard/message.png" alt="icone-message.png">
+                    <img class="sidebar-icone-hover" src="assets/photos/dashboard/message-white.png" alt="icone-message-white.png">
+                    <a href="#" class="w3-bar-item  ">Messages</a>
+                </li>
+            </ul>
+        </div>
+        <div class="sidebar-sergey">
+            <img src="assets/photos/dashboard/sergey.png" alt="">
+            <div class="sidebar-sergey-text">
+                <h1>Sergey Goldberg</h1>
+                <p>company@example.com</p>
+            </div>
+        </div>
+    </section>
+    <section id="dashboard">
+        <header>
+            <h1>Dashboard</h1>
+            <div class="create-share">
+                <button class="header-create"><img src="assets/photos/dashboard/plus.png" alt="image-create-button"> Create new project</button>
+                <button class="header-share"><img src="assets/photos/dashboard/share-dashboard.png" alt="image-share-button"> Share</button>
+            </div>
+        </header>
+        <main>
+            <section class="dashboard-section1">
+                <div class="dashboard-data-stat">
+                    <div class="dashboard-data">
+                        <div class="data-grid data-grid1">
+                            <p>Data label</p>
+                            <h2>6,452</h2>
+                            <div class="data-button"><button>▲</button>5.39%</div>
+                        </div>
+                        <div class="data-grid data-grid2">
+                            <p>Data label</p>
+                            <h2>42,502</h2>
+                            <div class="data-button"><button>▼</button>0.65%</div>
+                        </div>
+                        <div class="data-grid data-grid3">
+                            <p>Data label</p>
+                            <h2>56,201</h2>
+                            <div class="data-button"><button>▲</button>2.29%</div>
+                        </div>
+                    </div>
+                    <div class="dashboard-statistic">
+                        <div class="statistic-head">
+                            <h2>Statistics</h2>
+                            <form action="">
+                                <select name="date" id="date">
+                                    <option value="date">2022</option>
+                                    <option value="date">2023</option>
+                                    <option value="date">2024</option>
+                                    <option value="date">2025</option>
+                                    <option value="date">2026</option>
+                                </select>
+                            </form>
+                        </div>
+                        <div class="statistic-container">
+                            <div class="statistic-image">
+                                <img src="assets/photos/dashboard/bar-chart1.png" alt="column-bar-chart">
+                                <div class="statistic-numbers">
+                                    <div class="stat-number-content">1</div>
+                                    <div class="stat-number-content">2</div>
+                                    <div class="stat-number-content">3</div>
+                                    <div class="stat-number-content">4</div>
+                                    <div class="stat-number-content">5</div>
+                                    <div class="stat-number-content">6</div>
+                                    <div class="stat-number-content">7</div>
+                                    <div class="stat-number-content">8</div>
+                                    <div class="stat-number-content">9</div>
+                                    <div class="stat-number-content">10</div>
+                                    <div class="stat-number-content">11</div>
+                                    <div class="stat-number-content">12</div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="dashboard-activity">
+                    <div class="activity-head">
+                        <h2>Activities</h2>
+                        <form action="">
+                            <img src="assets/photos/dashboard/icone-monthly.png" alt="icone-calendar">
+                            <select name="date" id="date">
+                                <option value="date">Monthly</option>
+                                <option value="date">Monthly</option>
+                                <option value="date">Monthly</option>
+                                <option value="date">Monthly</option>
+                                <option value="date">Monthly</option>
+                            </select>
+                        </form>
+                    </div>
+                    <div class="activity-container">
+                        <div class="activity-column">
+                            <img src="assets/photos/dashboard/kathryn.png" alt="kathryn-avatar">
+                            <div class="activity-description-avatar">
+                                <h5>Kathryn Murphy</h5>
+                                <p>ln eu do do cillum lorem exercitation ea dolor.</p>
+                            </div>
+                        </div>
+                        <div class="activity-column">
+                            <img src="assets/photos/dashboard/harrid-james.png" alt="photo-avatar">
+                            <div class="activity-description-avatar">
+                                <h5>James Harid</h5>
+                                <p>Deserunt minim indidunt cillum nostrudo voluptate excepteur.</p>
+                            </div>
+                        </div>
+                        <div class="activity-column">
+                            <img src="assets/photos/dashboard/elon-melon.png" alt="photo-avatar">
+                            <div class="activity-description-avatar">
+                                <h5>Elon Melon</h5>
+                                <p>Mollit consectetur occaecat et ad adipisicing ex deserunt fugiat.</p>
+                            </div>
+                        </div>
+                        <div class="activity-column">
+                            <img src="assets/photos/dashboard/mia-smith.png" alt="photo-avatar">
+                            <div class="activity-description-avatar">
+                                <h5>Mia Smith</h5>
+                                <p>Cupidatat eiusm d tempor labore amet amet proid nt duis.</p>
+                            </div>
+                        </div>
+                        <div class="activity-column">
+                            <img src="assets/photos/dashboard/james-doe.png" alt="photo-avatar">
+                            <div class="activity-description-avatar">
+                                <h5>James Doe</h5>
+                                <p>Duis excepteur enim enim dolore aliqua officia nisi labore ipsum.</p>
+                            </div>
+                        </div>
+                    </div>
+                </div>  
+            </section>
+            <section class="recent-segment">
+                <div class="dashboard-recent-order">
+                    <h2>Recent Orders</h2>
+                    <div class="recent-order-container">
+                        <table>
+                            <tr>
+                                <th>Product</th>
+                                <th>Price</th>
+                                <th>Quantity</th>
+                                <th>Amount</th>
+                                <th>Status</th>
+                                <th></th>
+                            </tr>
+                            <tr>
+                                <td>Product name</td>
+                                <td>300</td>
+                                <td>2</td>
+                                <td>$600</td>
+                                <td class="recent-td-blue">
+                                    <button>New</button>
+                                </td>
+                                <td class="recent-button-dots">
+                                    <button><img src="assets/photos/dashboard/dots-three-vertical.png" alt="dots-three-vertical"></button>
+                                </td>
+                            </tr>
+                            <tr>
+                                <td>Product name</td>
+                                <td>300</td>
+                                <td>3</td>
+                                <td>$900</td>
+                                <td class="recent-td-green">
+                                    <button>Delivred</button>
+                                </td>
+                                <td class="recent-button-dots">
+                                    <button><img src="assets/photos/dashboard/dots-three-vertical.png" alt="dots-three-vertical"></button>
+                                </td>
+                            </tr>
+                            <tr>
+                                <td>Product name</td>
+                                <td>500</td>
+                                <td>2</td>
+                                <td>$1000</td>
+                                <td class="recent-td-blue">
+                                    <button>New</button>
+                                </td>
+                                <td class="recent-button-dots">
+                                    <button><img src="assets/photos/dashboard/dots-three-vertical.png" alt="dots-three-vertical"></button>
+                                </td>
+                            </tr>
+                        </table>
+                    </div>
+                </div>
+                <div class="dashboard-staistics-segment">
+                    <div class="segment-container">
+                        <div>
+                            <h2>Statistics</h2>
+                            <p>From 1-15 June, 2022</p>
+                        </div>
+                        <img src="assets/photos/dashboard/pie-chart.png" alt="Pie-chart-statistics">
+                    </div>
+                    <div class="segement-container-none"></div>
+                </div>
+            </section>
+        </main>
+    </section>
+</body>
+</html>

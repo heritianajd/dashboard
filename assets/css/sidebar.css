@@ -1,0 +1,151 @@
+@font-face{
+    font-family: 'Epilogue';
+    src: url(../fonts/epilogue/static/Epilogue-Bold.ttf),
+        url(../fonts/epilogue/static/Epilogue-ExtraLight.ttf),
+        url(../fonts/epilogue/static/Epilogue-LightItalic.ttf),
+        url(../fonts/epilogue/static/Epilogue-Medium.ttf);
+    }
+
+@font-face{
+    font-family: 'Inter';
+    src: url(../fonts/inter/static/Inter-SemiBold.ttf);
+}
+
+* {
+    margin: 0;
+    padding: 0;
+}
+
+#sidebar{
+    padding: 20px 15px;
+    margin-left: 5px;
+    border-left: 1px rgb(231, 232, 235) solid;
+    border-right: 1px rgb(227, 229, 233) solid;
+    width: 18%;
+    position: fixed;
+    background: white;
+    height: 100vh;
+}
+
+#sidebar .sidebar-head{
+    text-decoration: none;
+}
+
+.sidebar-content-head .sidebar-head-text {
+    margin-top: 3px;
+}
+
+.sidebar-head-text h3{
+    font-size: 18px; 
+    font-family: 'Epilogue';
+    color: #171A1FFF;
+    margin: 0;
+}
+
+.sidebar-head-text p{
+    font-size: 12px; 
+    font-family: 'Inter';
+    color: #565E6CFF;
+}
+
+.sidebar-content-head{
+    display: flex;
+}
+
+.sidebar-content-head img{
+    width: 48px;
+    height: 48px;
+    margin-right: 12px;
+}
+
+.sidebar-container{
+    font-family: 'Inter';
+    margin-top: 22px;
+}
+
+.sidebar-container ul{
+    padding-left: 0;
+    max-width: 100%;
+}
+
+.sidebar-container li{
+    list-style: none;
+    padding-bottom: 10px;
+    padding-top: 10px;
+    padding-left: 18px;
+    align-items: center;
+}
+
+.sidebar-link-page{
+    display: flex;
+}
+
+.sidebar-container ul{
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+}
+
+.sidebar-link-page img{
+    width: 18px;
+    height: 18px;
+}
+
+.sidebar-link-page a{
+    text-decoration: none;
+    padding: 0 0 0 10px!important;
+    font-size: 14px; 
+    color: #565E6CFF;
+}
+
+.sidebar-container li:hover{
+    background: #00BDD6FF;
+    border-radius: 4px;
+}
+
+.sidebar-link-page .sidebar-icone-hover{
+    display: none;
+}
+
+.sidebar-container li:hover a{
+    color: white;
+}
+
+.sidebar-container li:hover .sidebar-icone-simple{
+    display: none;
+}
+
+.sidebar-container li:hover .sidebar-icone-hover{
+    display: block;
+}
+
+/* sidebar-sergey */
+#sidebar .sidebar-sergey{
+    display: flex;
+    position: absolute;
+    bottom: 20px;
+    align-items: center;
+}
+
+.sidebar-sergey img{
+    width: 36px;
+    height: 36px;
+}
+
+.sidebar-sergey .sidebar-sergey-text{
+    margin-left: 12px;
+}
+
+.sidebar-sergey h1{
+    font-size: 14px;
+    color: #171A1FFF;
+    font-family: 'Inter';
+    margin-bottom: 0;
+}
+
+.sidebar-sergey p{
+    font-size: 12px;
+    font-family: 'Inter';
+    color: #9095A0FF;
+    margin-top: 0;
+}

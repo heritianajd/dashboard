@@ -1,0 +1,179 @@
+@font-face{
+    font-family: 'Epilogue';
+    src: url(../fonts/epilogue/static/Epilogue-Bold.ttf),
+        url(../fonts/epilogue/static/Epilogue-ExtraLight.ttf),
+        url(../fonts/epilogue/static/Epilogue-LightItalic.ttf),
+        url(../fonts/epilogue/static/Epilogue-Medium.ttf);
+    }
+
+@font-face{
+    font-family: 'Inter';
+    src: url(../fonts/inter/static/Inter-SemiBold.ttf);
+}
+
+* {
+    margin: 0;
+}
+
+#registration header img{
+    width: 173px;
+    height: fit-content;
+}
+
+#registration header{
+    padding: 41px 0 0 49px;
+}
+
+#registration main{
+    display: flex;
+    justify-content: space-between;
+    max-width: 90%;
+    margin-top: 30px!important;
+    margin: auto;
+}
+
+.registration-group img{
+    width: 637px; 
+    height: auto;
+}
+
+.registration-sign{
+    background-color: #FFFFFF;
+    height: fit-content;
+    width: max-content;
+    padding: 56px;
+    border-radius: 8px;
+}
+
+.registration-creation-account{
+    text-align: center;
+}
+
+.registration-container-form{
+    margin-top: 32px;
+}
+
+.registration-creation-account h1{
+    font-size: 24px; 
+    color: #171A1FFF;
+    font-family: 'Epilogue';
+}
+
+.registration-creation-account p{
+    font-size: 12px; 
+    color: #9095A0FF;
+    margin-top: 2px;
+    font-family: 'Inter';
+
+}
+
+.registration-social-media{
+    margin-top: 24px;
+    display: flex;
+    justify-content: center;
+    gap: 8px;
+}
+
+.registration-social-media img{
+    width: 16px; 
+    height: 16px;
+}
+
+.registration-social-media button{
+    background: #FEF1F1FF; 
+    border: none;
+    border-radius: 18px; 
+    padding: 0 10px; 
+}
+
+.registration-input{
+    display: flex;
+    flex-direction: column;
+}
+
+.registration-input label{
+    font-size: 16px;
+    font-family: 'Inter';
+    color: rgb(98 94 94);
+    margin-bottom: 5px;
+}
+
+.registration-input input{
+    color: #BCC1CAFF;
+    font-family: 'Inter';
+    font-size: 16px; 
+    background: #F3F4F6FF;
+    width: 384px;
+    height: 44px; 
+    border-radius: 22px;
+    outline: none;
+    border: none;
+    padding: 0 16px;
+}
+
+.registration-container-form form{
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+}
+
+.registration-button-sign{
+    margin-top: 20px;
+}
+
+.registration-button-sign button{
+    background: #00BDD6FF;
+    color: #FFFFFFFF; 
+    font-size: 18px;
+    font-family: 'Inter';
+    text-align: center;
+    padding: 20px 0;
+    border-radius: 40px; 
+    width: 100%;
+    border: none;
+}
+
+.paragraphe{
+    font-size: 14px; 
+    font-family: 'Inter';
+    color: #323842FF;
+    margin-top: 20px;
+    text-align: center;
+}
+
+.paragraphe a{
+    color: #00BDD6FF;
+    margin-left: 4px;
+    text-decoration: none;
+}
+
+.paragraphe a:hover{
+    text-decoration: underline;
+}
+
+
+#section-backround .oval-left{
+    width: 662px;
+    height: 662px;
+    background: #8353E24D;
+    position: absolute;
+    z-index: -1;
+    border-radius: 50%; 
+    top: -77px; 
+    left: -344px; 
+}
+
+/* #section-backround .oval-right{
+    position: absolute; 
+    top: -208px; 
+    width: 551px; 
+    height: 551px; 
+    background: #8353E24D;
+    border-radius: 50%; 
+    z-index: -1;
+   
+} */
+
+#section-backround .rectangle{
+        
+}

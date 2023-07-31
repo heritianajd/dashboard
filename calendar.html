@@ -1,0 +1,394 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Calendar</title>
+    <link rel="stylesheet" href="assets/css/calendar.css">
+    <link rel="stylesheet" href="assets/css/sidebar.css">
+    <link rel="stylesheet" href="https://www.w3schools.com/w3css/4/w3.css">
+</head>
+<body>
+    <section id="sidebar">
+        <a class="sidebar-head" href="dashboard.html">
+            <div class="sidebar-content-head">
+                <img src="assets/photos/dashboard/sidebar-logo.png" alt="">
+                <div class="sidebar-head-text">
+                    <h3 class="w3-bar-item">Project name</h3>
+                    <p>Category</p>
+                </div>
+            </div>
+        </a>
+        <div class="sidebar-container ">
+            <ul>
+                <li class="sidebar-link-page">
+                    <img class="sidebar-icone-simple" src="assets/photos/dashboard/simple-square.png" alt="">
+                    <img class="sidebar-icone-hover" src="assets/photos/dashboard/square-white.png" alt="">
+                    <a href="dashboard.html" class="w3-bar-item ">Dashboard</a>
+                </li>
+                <li class="sidebar-link-page">
+                    <img class="sidebar-icone-simple" src="assets/photos/dashboard/project.png" alt="">
+                    <img class="sidebar-icone-hover" src="assets/photos/dashboard/project-white.png" alt="square_white">
+                    <a href="#" class="w3-bar-item  ">Projects</a>
+                </li>
+                <li class="sidebar-link-page" style="background: #00BDD6FF;border-radius: 4px;">
+                    <img  src="assets/photos/dashboard/calendar-white.png" alt="">
+                    <a href="calendar.html" class="w3-bar-item" style="color:#FFFFFFFF;">Calendar</a>
+                </li>
+                <li class="sidebar-link-page">
+                    <img class="sidebar-icone-simple" src="assets/photos/dashboard/user-acount.png" alt="">
+                    <img class="sidebar-icone-hover" src="assets/photos/dashboard/user-acount-white.png" alt="square_white">
+                    <a href="#" class="w3-bar-item  ">Teams</a>
+                </li>
+                <li class="sidebar-link-page">
+                    <img class="sidebar-icone-simple" src="assets/photos/dashboard/analystec.png" alt="">
+                    <img class="sidebar-icone-hover" src="assets/photos/dashboard/analustec-white.png" alt="square_white">
+                    <a href="#" class="w3-bar-item  ">Analytics</a>
+                </li>
+                <li class="sidebar-link-page">
+                    <img class="sidebar-icone-simple" src="assets/photos/dashboard/code.png" alt="">
+                    <img class="sidebar-icone-hover" src="assets/photos/dashboard/code-white.png" alt="square_white">
+                    <a href="setting.html" class="w3-bar-item ">Integrations</a>
+                </li>
+                <li class="sidebar-link-page">
+                    <img class="sidebar-icone-simple" src="assets/photos/dashboard/message.png" alt="icone-message.png">
+                    <img class="sidebar-icone-hover" src="assets/photos/dashboard/message-white.png" alt="icone-message-white.png">
+                    <a href="#" class="w3-bar-item  ">Messages</a>
+                </li>
+            </ul>
+        </div>
+        <div class="sidebar-sergey">
+            <img src="assets/photos/dashboard/sergey.png" alt="">
+            <div class="sidebar-sergey-text">
+                <h1>Sergey Goldberg</h1>
+                <p>company@example.com</p>
+            </div>
+        </div>
+    </section>
+    <section id="calendar">
+        <div class="calendar-section1">
+            <header>
+                <h1>Calendar</h1>
+                <button class="header-create"><img src="assets/photos/dashboard/plus.png" alt="image-create-button"> Create new project</button>
+            </header>
+            <div class="calendar-section1-container">
+                <div class="calendar-left">
+                    <div class="calendar-left-head">
+                        <div class="title-today-button">
+                            <h3>Dec, 2022</h3>
+                            <div class="button-today">
+                                <button class="button-today-icone"><img src="assets/photos/calendar/caret-left.png" alt="icone-caret-left"></button>
+                                <button class="button-today-icone"><img src="assets/photos/calendar/caret-right.png" alt="icone-caret-right"></button>
+                                <button class="button-text-today">Today</button>
+                            </div>
+                        </div>
+                        <div class="select-button-day">
+                            <select name="day" id="day">
+                                <option value="day">Day</option>
+                                <option value="day">Mon</option>
+                                <option value="day">Tue</option>
+                                <option value="day">Wed</option>
+                                <option value="day">Thu</option>
+                                <option value="day">Fri</option>
+                                <option value="day">Sat</option>
+                                <option value="day">Sun</option>
+                            </select>
+                            <button><img src="assets/photos/calendar/icone-day.png" alt="day-icone"></button>
+                        </div>
+                    </div>
+                    <div class="calendar-left-container">
+                        <div class="calendar-left-grid calendar-left-grid-9">
+                            <p>Sat</p>
+                            <button style="color: #323842FF;">3</button>
+                        </div>
+                        <div class="calendar-left-grid calendar-left-grid-9">
+                            <p>Sun</p>
+                            <button>4</button>
+                        </div>
+                        <div class="calendar-left-grid calendar-left-grid-9">
+                            <p>Mon</p>
+                            <button style="background: #EBFDFFFF;">5</button>
+                        </div>
+                        <div class="calendar-left-grid calendar-left-grid-9">
+                            <p>Tu</p>
+                            <button style="background: #EBFDFFFF;">6</button>
+                        </div>
+                        <div class="calendar-left-grid calendar-left-grid-9">
+                            <p>Wed</p>
+                            <button style="background: #EBFDFFFF;">7</button>
+                        </div>
+                        <div class="calendar-left-grid calendar-left-grid-9">
+                            <p>Thu</p>
+                            <button style="background: #EBFDFFFF;">8</button>
+                        </div>
+                        <div class="calendar-left-grid calendar-left-grid-9">
+                            <p>Fri</p>
+                            <button style="background: #00BDD6FF;color: #FFFFFFFF;">9</button>
+                        </div>
+                        <div class="calendar-left-grid calendar-left-grid-13">
+                            <p>Sat</p>
+                            <button>10</button>
+                        </div>
+                        <div class="calendar-left-grid calendar-left-grid-13">
+                            <p>Sun</p>
+                            <button>11</button>
+                        </div>
+                        <div class="calendar-left-grid calendar-left-grid-13">
+                            <p>Mon</p>
+                            <button>12</button>
+                        </div>
+                        <div class="calendar-left-grid calendar-left-grid-13">
+                            <p>Tu</p>
+                            <button>13</button>
+                        </div>
+                        <div class="calendar-left-grid calendar-left-grid-13">
+                            <p>Wen</p>
+                            <button>14</button>
+                        </div>
+                        <div class="calendar-left-grid calendar-left-grid-13">
+                            <p>Thu</p>
+                            <button>15</button>
+                        </div>
+                    </div>
+                </div>
+                <div class="calendar-section-user calendar-user-eight">
+                    <div class="calendar-user-column">
+                        <div class="houre-meeting-user">
+                            <p>08:00 AM</p>
+                            <div class="line-dashed"></div> 
+                        </div>
+                        <div class="meeting-user-container">
+                            <div class="meeting-duration">
+                                <h4>Meeting title</h4>
+                                <div class="map-and-metting">
+                                    <p><img width="16px" src="assets/photos/calendar/map-pin.png" alt="logo-map">08:00 - 09:00 AM</p>
+                                    <p><img width="16px" src="assets/photos/calendar/clock.png" alt="logo-clock"> Meeting room 09.002</p>
+                                </div>
+                            </div>
+                            <div class="avatar-user">
+                                <img class="avatar-image-user" src="assets/photos/calendar/sergey.png" alt="Avatar-user">
+                                <img class="avatar-image-user" src="assets/photos/calendar/avatar1.png" alt="Avatar-user">  
+                                <img class="avatar-image-user" src="assets/photos/calendar/elon-melon.png" alt="Avatar-user">
+                                <img class="avatar-image-user" src="assets/photos/calendar/avatar2.png" alt="Avatar-user">
+                                <button class="button-menu-vertical">
+                                    <img src="assets/photos/calendar/menu-vertical.png" alt="icone-menu-vertical">
+                                </button>
+                            </div>
+                        </div>
+                        <div class="calendar-line-eight">
+                            <p>08:30 AM</p>
+                            <button></button>
+                            <hr>
+                        </div>
+                    </div>
+                    <div class="calendar-user-column calendar-user-nine">
+                        <div class="houre-meeting-user">
+                            <p>09:00 AM</p>
+                            <div class="line-dashed"></div> 
+                        </div>
+                        <div class="meeting-user-container">
+                            <div class="meeting-duration">
+                                <h4>Meeting title</h4>
+                                <div class="map-and-metting">
+                                    <p><img width="16px" src="imgs/Map pin 47.png" alt=""> 09:00 - 09:30 AM</p>
+                                    <p><img width="16px" src="imgs/Clock 104.png" alt=""> Meeting room  3.2</p>
+                                </div>
+                            </div>
+                            <div class="avatar-user">
+                                <img class="avatar-image-user" src="assets/photos/calendar/sergey.png" alt="Avatar-user">
+                                <img class="avatar-image-user" src="assets/photos/calendar/avatar1.png" alt="Avatar-user">  
+                                <img class="avatar-image-user" src="assets/photos/calendar/harrid-james.png" alt="Avatar-user">
+                                <img class="avatar-image-user" src="assets/photos/calendar/avatar3.png" alt="Avatar-user">
+                                <button class="button-menu-vertical">
+                                    <img src="assets/photos/calendar/menu-vertical.png" alt="icone-menu-vertical">
+                                </button>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="calendar-user-column calendar-user-ten">
+                        <div class="houre-meeting-user">
+                            <p>10:00 AM</p>
+                            <div class="line-dashed"></div> 
+                        </div>
+                        <div class="meeting-user-container">
+                            <div class="meeting-duration">
+                                <h4>Meeting title</h4>
+                                <div class="map-and-metting">
+                                    <p><img width="16px" src="imgs/Map pin 47.png" alt=""> 10:00 - 11:30 AM</p>
+                                    <p><img width="16px" src="imgs/Clock 104.png" alt=""> Meeting room 4.3</p>
+                                </div>
+                            </div>
+                            <div class="avatar-user">
+                                <img class="avatar-image-user" src="assets/photos/calendar/sergey.png" alt="Avatar-user">
+                                <img class="avatar-image-user" src="assets/photos/calendar/katryn.png" alt="Avatar-user">  
+                                <img class="avatar-image-user" src="assets/photos/calendar/avatar2.png" alt="Avatar-user">
+                                <img class="avatar-image-user" src="assets/photos/calendar/harrid-james.png" alt="Avatar-user">
+                                <button class="button-menu-vertical">
+                                    <img src="assets/photos/calendar/menu-vertical.png" alt="icone-menu-vertical">
+                                </button>
+                            </div>
+                        </div>
+                        <div class="houre-meeting-user">
+                            <p>11:00 AM</p>
+                        </div>
+                    </div>
+                    <div class="calendar-user-column calendar-user-eleven">
+                        <div class="meeting-user-container">
+                            <div class="meeting-duration">
+                                <h4>Meeting title</h4>
+                                <div class="map-and-metting">
+                                    <p><img width="16px" src="imgs/Map pin 47.png" alt="">11:30 - 12:00 AM</p>
+                                    <p><img width="16px" src="imgs/Clock 104.png" alt=""> Meeting room  3.2</p>
+                                </div>
+                            </div>
+                            <div class="avatar-user">
+                                <img class="avatar-image-user" src="assets/photos/calendar/sergey.png" alt="Avatar-user">
+                                <img class="avatar-image-user" src="assets/photos/calendar/avatar1.png" alt="Avatar-user">  
+                                <img class="avatar-image-user" src="assets/photos/calendar/harrid-james.png" alt="Avatar-user">
+                                <img class="avatar-image-user" src="assets/photos/calendar/avatar3.png" alt="Avatar-user">
+                                <button class="button-menu-vertical">
+                                    <img src="assets/photos/calendar/menu-vertical.png" alt="icone-menu-vertical">
+                                </button>
+                            </div>
+                        </div>
+                        <div class="houre-meeting-user">
+                            <p>12:00 AM</p>
+                            <div class="line-dashed"></div> 
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <div class="calendar-section2">
+            <div class="calendar-rigth">
+                <div class="calendar-rigth-head">
+                    <h3>Dec, 2022</h3>
+                    <div class="rigth-today-button">
+                        <button><img src="assets/photos/calendar/caret-left.png" alt="icone-caret-left"></button>
+                        <button><img src="assets/photos/calendar/caret-right.png" alt="icone-caret-rigth"></button>
+                    </div>
+                </div>
+                <div class="calendar-rigth-container">
+                    <div class="calendar-rigth-week">
+                        <button class="calendar-rigth-day">Mon</button>
+                        <button class="calendar-rigth-date previous-and-next-date">29</button>
+                        <button class="calendar-rigth-date date-in-month" style="background: #C8F9FFFF;">5</button>
+                        <button class="calendar-rigth-date date-in-month">12</button>
+                        <button class="calendar-rigth-date date-in-month">19</button>
+                        <button class="calendar-rigth-date date-in-month">26</button>
+                    </div>
+                    <div class="calendar-rigth-week">
+                        <button class="calendar-rigth-day">Tue</button>
+                        <button class="calendar-rigth-date previous-and-next-date">30</button>
+                        <button class="calendar-rigth-date date-in-month" style="background: #C8F9FFFF;">6</button>
+                        <button class="calendar-rigth-date date-in-month">13</button>
+                        <button class="calendar-rigth-date date-in-month">20</button>
+                        <button class="calendar-rigth-date date-in-month">27</button>
+                    </div>
+                    <div class="calendar-rigth-week">
+                        <button class="calendar-rigth-day">Wed</button>
+                        <button class="calendar-rigth-date previous-and-next-date">31</button>
+                        <button class="calendar-rigth-date date-in-month" style="background: #C8F9FFFF;">7</button>
+                        <button class="calendar-rigth-date date-in-month">14</button>
+                        <button class="calendar-rigth-date date-in-month">21</button>
+                        <button class="calendar-rigth-date date-in-month">28</button>
+                    </div>
+                    <div class="calendar-rigth-week">
+                        <button class="calendar-rigth-day">Thu</button>
+                        <button class="calendar-rigth-date date-in-month">1</button>
+                        <button class="calendar-rigth-date date-in-month" style="background: #C8F9FFFF;">8</button>
+                        <button class="calendar-rigth-date date-in-month">15</button>
+                        <button class="calendar-rigth-date date-in-month">22</button>
+                        <button class="calendar-rigth-date previous-and-next-date">1</button>
+                    </div>
+                    <div class="calendar-rigth-week">
+                        <button class="calendar-rigth-day">Fri</button>
+                        <button class="calendar-rigth-date date-in-month">2</button>
+                        <button class="calendar-rigth-date date-in-month" style="background: #00BDD6FF;color: #FFFFFFFF;">9</button>
+                        <button class="calendar-rigth-date date-in-month">16</button>
+                        <button class="calendar-rigth-date date-in-month">23</button>
+                        <button class="calendar-rigth-date previous-and-next-date">2</button>
+                    </div>
+                    <div class="calendar-rigth-week">
+                        <button class="calendar-rigth-day">Sat</button>
+                        <button class="calendar-rigth-date date-in-month">3</button>
+                        <button class="calendar-rigth-date date-in-month">10</button>
+                        <button class="calendar-rigth-date date-in-month">17</button>
+                        <button class="calendar-rigth-date date-in-month">24</button>
+                        <button class="calendar-rigth-date previous-and-next-date">3</button>
+                    </div>
+                    <div class="calendar-rigth-week">
+                        <button class="calendar-rigth-day">Sun</button>
+                        <button class="calendar-rigth-date date-in-month">4</button>
+                        <button class="calendar-rigth-date date-in-month">11</button>
+                        <button class="calendar-rigth-date date-in-month">18</button>
+                        <button class="calendar-rigth-date date-in-month">25</button>
+                        <button class="calendar-rigth-date previous-and-next-date">4</button>
+                    </div>
+                </div>
+            </div>
+            <!-- <div class="calendar-activitie"></div> -->
+            <div class="calendar-activity">
+                <div class="activity-head">
+                    <h2>Activities</h2>
+                    <div class="rigth-menu-button">
+                        <button><img src="assets/photos/calendar/menu-vertical.png" alt="icone-menu-vertical"></button>
+                    </div>
+                </div>
+                <div class="activity-container">
+                    <div class="activity-column">
+                        <img src="assets/photos/dashboard/kathryn.png" alt="kathryn-avatar">
+                        <div class="activity-description-avatar">
+                            <h5>Kathryn Murphy</h5>
+                            <p>In eu do do cillum lorem exerci kea dolor.</p>
+                        </div>
+                    </div>
+                    <div class="activity-column">
+                        <img src="assets/photos/dashboard/harrid-james.png" alt="kathryn-avatar">
+                        <div class="activity-description-avatar">
+                            <h5>James Harid</h5>
+                            <p>Deserunt minim indidunt cillum nostrudo.</p>
+                        </div>
+                    </div>
+                    <div class="activity-column">
+                        <img src="assets/photos/dashboard/elon-melon.png" alt="kathryn-avatar">
+                        <div class="activity-description-avatar">
+                            <h5>Elon Melon</h5>
+                            <p>Tempor labore consectetur minim est consequat</p>
+                        </div>
+                    </div>
+                    <div class="activity-column">
+                        <img src="assets/photos/dashboard/mia-smith.png" alt="kathryn-avatar">
+                        <div class="activity-description-avatar">
+                            <h5>Mia Smith</h5>
+                            <p>Cupidatat eiusmod tempor labor amet a</p>
+                        </div>
+                    </div>
+                    <div class="activity-column">
+                        <img src="assets/photos/dashboard/james-doe.png" alt="kathryn-avatar">
+                        <div class="activity-description-avatar">
+                            <h5>James Doe</h5>
+                            <p>Duis exepteur enim enim dolore aliqua</p>
+                        </div>
+                    </div>
+                    <div class="activity-column">
+                        <img src="assets/photos/dashboard/elon-melon.png" alt="kathryn-avatar">
+                        <div class="activity-description-avatar">
+                            <h5>Elon Melon</h5>
+                            <p>Tempor labore consectetur minim est consequat</p>
+                        </div>
+                    </div>
+                    <div class="activity-column">
+                        <img src="assets/photos/dashboard/harrid-james.png" alt="kathryn-avatar">
+                        <div class="activity-description-avatar">
+                            <h5>James Harrid</h5>
+                            <p>Deserunt minim indidunt cillum nostrudo.</p>
+                        </div>
+                    </div>
+                </div>
+            </div>  
+        </div>
+    </section>
+</body>
+</html>
