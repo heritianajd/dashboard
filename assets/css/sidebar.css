@@ -124,7 +124,8 @@
     display: flex;
     position: absolute;
     bottom: 20px;
-    align-items: center;
+    align-items: center!important;
+    gap: 12px;
 }
 
 .sidebar-sergey img{
@@ -133,7 +134,7 @@
 }
 
 .sidebar-sergey .sidebar-sergey-text{
-    margin-left: 12px;
+    
 }
 
 .sidebar-sergey h1{
@@ -148,4 +149,77 @@
     font-family: 'Inter';
     color: #9095A0FF;
     margin-top: 0;
+}
+
+/* sidebar-footer */
+.sidebar-footer{
+    display: none;
+}
+
+@media (max-width:1250px) {
+    #sidebar .sidebar-sergey{
+        flex-direction: column;
+        align-items: start!important;
+    }
+}
+
+@media (max-width:992px) {
+    #sidebar{
+        display: none!important;
+    }
+
+    .sidebar-footer{
+        display: block;
+    }
+
+    .sidebar-footer{
+        display: flex;
+        justify-content: space-between;
+        position: fixed;
+        bottom: 0;
+        width: 100%;
+        background-color: white;
+        padding: 20px;
+        border-top:  1px solid #F3F4F6FF;
+    }
+    
+    .sidebar-footer a{
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        text-align: center;
+        align-items: center;
+        text-decoration: none;
+    }
+    
+    .sidebar-footer p{
+        color: #565E6CFF;
+        font-family: 'Inter';
+        font-size: 10px;
+    }
+    .sidebar-footer a:hover p{
+        color: #00BDD6FF!important;
+    }
+    
+    .sidebar-footer img{
+        width: 30px;
+    }
+    .icone-white-blue{
+        
+    }
+    .sidebar-footer a:hover .icone-simple-footer{
+        display: none;
+    }
+    .sidebar-footer a:hover .icone-white-blue{
+        display: block;
+    }
+    .icone-white-blue{
+        display: none;
+    }
+}
+
+@media (max-width:576px) {
+    .sidebar-footer img{
+        width: 24px;
+    }
 }

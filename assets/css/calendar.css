@@ -436,3 +436,223 @@ h1, h2, h3, h4, h5, h6{
 .rigth-menu-button button:hover{
     background: #FAFAFBFF;
 }
+
+/* calendar-none */
+#calendar-none{
+    display: none;
+}
+
+.vertical-line-blue{
+    display: none;
+}
+
+@media (max-width:992px) {
+    #calendar{
+        flex-direction: column;
+        margin-left: 28%;
+        padding: 32px 32px 98px 32px;
+    }
+
+    .calendar-section1{
+        width: 100%;
+    }
+
+    .sidebar-calendar{
+        width: 28%;
+    }
+
+    #calendar{
+        margin-left: 0;
+    }
+}
+
+@media (max-width:576px) {
+    #calendar{
+        display: none;
+    }
+
+    #calendar-none{
+        display: block;
+    }
+
+    .image-avatar-none img{
+        width: 28px;
+        height: 28px;
+        margin-right: -12px;
+    }
+  
+    
+    #calendar-none h1{
+        font-size: 24px; 
+        line-height: 36px; 
+        color: #171A1FFF;
+        font-family: 'Epilogue';
+        padding: 10px 20px;
+    }
+    
+    .calendar-head-none{
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+        padding: 0 20px 22px 20px;
+    }
+
+    
+    .calendar-head-month{
+        display: flex;
+        align-items: center;
+        gap: 7px;
+    }
+    .calendar-head-month select{
+        font-size: 12px; 
+        line-height: 20px; 
+        color: #9095A0FF; 
+        font-family: 'Inter';
+        border: none;
+        outline: none;
+    }
+    .calendar-head-month img{
+        width: 24px;
+        height: 24px;
+    }
+
+    .calendar-head-month button{
+        border: none;
+        border-radius: 4px;
+        display: flex;
+    }
+
+    .calendar-container-none{
+        padding: 8px 20px;
+        display: flex;
+        justify-content: space-between;
+        background: #EBFDFFFF;
+    }
+    .day-date-none{
+        display: flex;
+        flex-direction: column;
+        gap: 6px;
+        text-align: center;
+    }
+
+    .day-date-none h4{
+        font-size: 10px; 
+        line-height: 16px; 
+        color: #323842FF;
+        font-family: 'Inter';
+    }
+
+    .day-date-none button{
+        font-size: 14px; 
+        line-height: 22px; 
+        color: #00BDD6FF;
+        font-family: 'Inter';
+        display: flex;
+        background: none;
+        border: none;
+        padding: 8px 10px;
+        border-radius: 20px;
+    }
+
+    .button-date20-none{
+        background: #00BDD6FF!important;
+        color: white!important;
+    }
+
+    .image-user-none img{
+        width: 28px;
+        height: 28px;
+    }
+
+
+    .calendar-user-none{
+        display: flex;
+        flex-direction: column;
+        gap: 24px;
+        padding-top: 22px;
+        padding-bottom: 200px;
+    }
+    .user-none-row{
+        display: flex;
+        gap: 8px;
+        align-items: center;
+        padding: 11px 12px;
+        border-radius: 35px;
+    }
+
+    .user-none-row1{
+        background: #F0F8FEFF;
+        width: 58%;
+        margin-left: 15%;
+    }
+    .user-none-row2{
+        background: #F5F2FDFF;
+        width: 58%;
+        margin-left: 30%;
+    }
+    .user-none-row3{
+        background: #FDF2F2FF;
+        width: 68%;
+        margin-left: 12%;
+    }
+    .user-none-row4{
+        background: #F0F8FEFF;
+        margin-left: 30%;
+    }
+    .user-none-row5{
+        background: #F5F2FDFF;
+        margin-left: 12%;
+        width: fit-content;
+    }
+    .user-none-row6{
+        background: #F1F4FDFF;
+        margin-left: 10%;
+        width: fit-content;
+    }
+
+    .user-none-row p{
+        font-size: 14px; 
+        line-height: 22px; 
+        color: #323842FF; 
+        font-family: 'Inter';
+    }
+
+    .button-add button{
+        padding: 9px 18px;
+        border-radius: 50%;
+        background: #00BDD6FF;
+        border: none;
+        color: #FFFFFFFF;
+        font-size: 25px;
+    }
+    .button-add{
+        position: fixed;
+        bottom: 100px;
+        right: 15px;
+    }
+    .calendar-user-none{
+        position: relative;
+    }
+
+    .vertical-line-blue{
+        display: block;
+    }
+
+    .vertical-line-blue{
+        border: 2px solid #A6F5FFFF;
+        height: 100vh;
+        position: absolute;
+        left: 16px;
+        z-index: 0;
+        top: 59px;
+    }
+
+    .day-date-none20{
+        position: relative;
+    }
+}
+
+/* background: #00BDD6FF;
+    color: white;
+    padding: 8px 10px;
+    border-radius: 20px; */

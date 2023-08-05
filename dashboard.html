@@ -1,5 +1,6 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
@@ -9,9 +10,10 @@
     <link rel="stylesheet" href="assets/css/sidebar.css">
     <link rel="stylesheet" href="https://www.w3schools.com/w3css/4/w3.css">
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css"
-     integrity="sha512-iecdLmaskl7CVkqkXNQ/ZH/XLlvWZOJyj7Yy7tcenmpD1ypASozpmT/E0iPtmFIB46ZmdtAc9eNBvH0H/ZpiBw=="
-    crossorigin="anonymous" referrerpolicy="no-referrer" />
+        integrity="sha512-iecdLmaskl7CVkqkXNQ/ZH/XLlvWZOJyj7Yy7tcenmpD1ypASozpmT/E0iPtmFIB46ZmdtAc9eNBvH0H/ZpiBw=="
+        crossorigin="anonymous" referrerpolicy="no-referrer" />
 </head>
+
 <body>
     <section id="sidebar">
         <a class="sidebar-head" href="dashboard.html">
@@ -41,12 +43,14 @@
                 </li>
                 <li class="sidebar-link-page">
                     <img class="sidebar-icone-simple" src="assets/photos/dashboard/user-acount.png" alt="">
-                    <img class="sidebar-icone-hover" src="assets/photos/dashboard/user-acount-white.png" alt="square_white">
+                    <img class="sidebar-icone-hover" src="assets/photos/dashboard/user-acount-white.png"
+                        alt="square_white">
                     <a href="#" class="w3-bar-item  ">Teams</a>
                 </li>
                 <li class="sidebar-link-page">
                     <img class="sidebar-icone-simple" src="assets/photos/dashboard/analystec.png" alt="">
-                    <img class="sidebar-icone-hover" src="assets/photos/dashboard/analustec-white.png" alt="square_white">
+                    <img class="sidebar-icone-hover" src="assets/photos/dashboard/analustec-white.png"
+                        alt="square_white">
                     <a href="#" class="w3-bar-item  ">Analytics</a>
                 </li>
                 <li class="sidebar-link-page">
@@ -56,7 +60,8 @@
                 </li>
                 <li class="sidebar-link-page">
                     <img class="sidebar-icone-simple" src="assets/photos/dashboard/message.png" alt="icone-message.png">
-                    <img class="sidebar-icone-hover" src="assets/photos/dashboard/message-white.png" alt="icone-message-white.png">
+                    <img class="sidebar-icone-hover" src="assets/photos/dashboard/message-white.png"
+                        alt="icone-message-white.png">
                     <a href="#" class="w3-bar-item  ">Messages</a>
                 </li>
             </ul>
@@ -73,9 +78,12 @@
         <header>
             <h1>Dashboard</h1>
             <div class="create-share">
-                <button class="header-create"><img src="assets/photos/dashboard/plus.png" alt="image-create-button"> Create new project</button>
+                <button class="header-create"><img src="assets/photos/dashboard/plus.png" alt="image-create-button">Create new project</button>
                 <button class="header-share"><img src="assets/photos/dashboard/share-dashboard.png" alt="image-share-button"> Share</button>
             </div>
+            <button class="button-menu-responsive">
+                <img src="assets/photos/dashboard/menu-button.png" alt="menu-button">
+            </button>
         </header>
         <main>
             <section class="dashboard-section1">
@@ -112,7 +120,10 @@
                         </div>
                         <div class="statistic-container">
                             <div class="statistic-image">
-                                <img src="assets/photos/dashboard/bar-chart1.png" alt="column-bar-chart">
+                                <div>
+                                    <img class="column-bar-chart1" src="assets/photos/dashboard/bar-chart1.png" alt="column-bar-chart">
+                                    <img class="column-bar-chart2" src="assets/photos/dashboard/column-bar chart-2.png" alt="column-bar-chart">
+                                </div>
                                 <div class="statistic-numbers">
                                     <div class="stat-number-content">1</div>
                                     <div class="stat-number-content">2</div>
@@ -131,6 +142,136 @@
                         </div>
                     </div>
                 </div>
+                <div class="dashboard-recent-order">
+                    <h2>Recent Orders</h2>
+                    <div class="recent-order-container">
+                        <table>
+                            <tr>
+                                <th>Product</th>
+                                <th>Price</th>
+                                <th>Quantity</th>
+                                <th>Amount</th>
+                                <th>Status</th>
+                                <th></th>
+                            </tr>
+                            <tr>
+                                <td>Product name</td>
+                                <td>300</td>
+                                <td>2</td>
+                                <td>$600</td>
+                                <td class="recent-td-blue">
+                                    <button>New</button>
+                                </td>
+                                <td class="recent-button-dots">
+                                    <button><img src="assets/photos/dashboard/dots-three-vertical.png"
+                                            alt="dots-three-vertical"></button>
+                                </td>
+                            </tr>
+                            <tr>
+                                <td>Product name</td>
+                                <td>300</td>
+                                <td>3</td>
+                                <td>$900</td>
+                                <td class="recent-td-green">
+                                    <button>Delivred</button>
+                                </td>
+                                <td class="recent-button-dots">
+                                    <button><img src="assets/photos/dashboard/dots-three-vertical.png"
+                                            alt="dots-three-vertical"></button>
+                                </td>
+                            </tr>
+                            <tr>
+                                <td>Product name</td>
+                                <td>500</td>
+                                <td>2</td>
+                                <td>$1000</td>
+                                <td class="recent-td-blue">
+                                    <button>New</button>
+                                </td>
+                                <td class="recent-button-dots">
+                                    <button><img src="assets/photos/dashboard/dots-three-vertical.png"
+                                            alt="dots-three-vertical"></button>
+                                </td>
+                            </tr>
+                        </table>
+                    </div>
+                </div>
+            </section>
+            <section id="recent-activity-none">
+                <div class="dashboard-activity-none">
+                    <div class="activity-head-none">
+                        <h1>Activities</h1>
+                        <p>See all</p>
+                    </div>
+                    <div class="activity-container-none">
+                        <div class="activity-none-avatar">
+                            <div class="description-avatar-none">
+                                <img src="assets/photos/dashboard/jane.png" alt="photo-avatar">
+                                <div>
+                                    <h4>Jane Cooper</h4>
+                                    <p>Exercitation cillium ut qui nulla</p>
+                                </div>
+                            </div>
+                            <div class="houre-avatar-none">12:00 PM</div>
+                        </div>
+                        <div class="activity-none-avatar">
+                            <div class="description-avatar-none">
+                                <img src="assets/photos/calendar/avatar3.png" alt="photo-avatar">
+                                <div>
+                                    <h4>James Harrid</h4>
+                                    <p>Incididuant ad consequant deserunt</p>
+                                </div>
+                            </div>
+                            <div class="houre-avatar-none">11:37 PM</div>
+                        </div>
+                    </div>
+                </div>
+                <div class="dashboard-recent-none">
+                    <h1>Recent orders</h1>
+                    <div class="container-recent-none">
+                        <div class="list-order-none">
+                            <div class="order-list-text">
+                                <img src="assets/photos/dashboard/recent-none1.png" alt="image-recent-order-none">
+                                <p>6 orders <em>to fulfill</em></p>
+                            </div>
+                            <button class="button-order-none">
+                                <img src="assets/photos/dashboard/caret-rigth.png" alt="icone-caret-right">
+                            </button>
+                        </div>
+                        <hr>
+                        <div class="list-order-none">
+                            <div class="order-list-text">
+                                <img src="assets/photos/dashboard/clipboard1.png" alt="image-recent-order-none">
+                                <p>20 orders <em>on delivery</em></p>
+                            </div>
+                            <button class="button-order-none">
+                                <img src="assets/photos/dashboard/caret-rigth.png" alt="icone-caret-right">
+                            </button>
+                        </div>
+                        <hr>
+                        <div class="list-order-none">
+                            <div class="order-list-text">
+                                <img src="assets/photos/dashboard/clipboard2.png" alt="image-recent-order-none">
+                                <p>99 payments <em>to capture</em></p>
+                            </div>
+                            <button class="button-order-none">
+                                <img src="assets/photos/dashboard/caret-rigth.png" alt="icone-caret-right">
+                            </button>
+                        </div>
+                        <hr>
+                        <div class="list-order-none">
+                            <div class="order-list-text">
+                                <img src="assets/photos/dashboard/credit-card.png" alt="image-recent-order-none">
+                                <p>1 chargeback <em>to review</em></p>
+                            </div>
+                            <button class="button-order-none">
+                                <img src="assets/photos/dashboard/caret-rigth.png" alt="icone-caret-right">
+                            </button>
+                        </div>
+                    </div>
+                </div>
+            </section>
+            <section class="activity-segment">
                 <div class="dashboard-activity">
                     <div class="activity-head">
                         <h2>Activities</h2>
@@ -182,61 +323,9 @@
                             </div>
                         </div>
                     </div>
-                </div>  
-            </section>
-            <section class="recent-segment">
-                <div class="dashboard-recent-order">
-                    <h2>Recent Orders</h2>
-                    <div class="recent-order-container">
-                        <table>
-                            <tr>
-                                <th>Product</th>
-                                <th>Price</th>
-                                <th>Quantity</th>
-                                <th>Amount</th>
-                                <th>Status</th>
-                                <th></th>
-                            </tr>
-                            <tr>
-                                <td>Product name</td>
-                                <td>300</td>
-                                <td>2</td>
-                                <td>$600</td>
-                                <td class="recent-td-blue">
-                                    <button>New</button>
-                                </td>
-                                <td class="recent-button-dots">
-                                    <button><img src="assets/photos/dashboard/dots-three-vertical.png" alt="dots-three-vertical"></button>
-                                </td>
-                            </tr>
-                            <tr>
-                                <td>Product name</td>
-                                <td>300</td>
-                                <td>3</td>
-                                <td>$900</td>
-                                <td class="recent-td-green">
-                                    <button>Delivred</button>
-                                </td>
-                                <td class="recent-button-dots">
-                                    <button><img src="assets/photos/dashboard/dots-three-vertical.png" alt="dots-three-vertical"></button>
-                                </td>
-                            </tr>
-                            <tr>
-                                <td>Product name</td>
-                                <td>500</td>
-                                <td>2</td>
-                                <td>$1000</td>
-                                <td class="recent-td-blue">
-                                    <button>New</button>
-                                </td>
-                                <td class="recent-button-dots">
-                                    <button><img src="assets/photos/dashboard/dots-three-vertical.png" alt="dots-three-vertical"></button>
-                                </td>
-                            </tr>
-                        </table>
-                    </div>
                 </div>
-                <div class="dashboard-staistics-segment">
+                <div class="dashboard-segment">
+                    <h1>Statistics</h1>
                     <div class="segment-container">
                         <div>
                             <h2>Statistics</h2>
@@ -249,5 +338,33 @@
             </section>
         </main>
     </section>
+    <div class="sidebar-footer">
+        <a href="dashboard.html">
+            <img class="icone-simple-footer" src="assets/photos/dashboard/icone-square-blue.png" alt="icone-dashboard">
+            <img class="icone-white-blue" src="assets/photos/dashboard/icone-square-blue.png" alt="icone-square-hover">
+            <p style="color: #00BDD6FF">Dashboard</p>
+        </a>
+        <a href="calendar.html">
+            <img class="icone-simple-footer" src="assets/photos/dashboard/calendar.png" alt="icone-dashboard">
+            <img class="icone-white-blue" src="assets/photos/dashboard/icons8-calendar-blue.png" alt="icone-square-hover">
+            <p>Calendar</p>
+        </a>
+        <a href="dashboard.html">
+            <img class="icone-simple-footer" src="assets/photos/dashboard/user-acount.png" alt="icone-dashboard">
+            <img class="icone-white-blue" src="assets/photos/dashboard/user-blue-footer.png" alt="icone-square-hover">
+            <p>Teams</p>
+        </a>
+        <a href="dashboard.html">
+            <img class="icone-simple-footer" src="assets/photos/dashboard/message.png" alt="icone-dashboard">
+            <img class="icone-white-blue" src="assets/photos/dashboard/message-blue-footer.png" alt="icone-square-hover">
+            <p>Messages</p>
+        </a>
+        <a href="setting.html">
+            <img class="icone-simple-footer" src="assets/photos/dashboard/setting-footer.png" alt="icone-dashboard">
+            <img class="icone-white-blue" src="assets/photos/dashboard/setting-blue-footer.png" alt="icone-square-hover">
+            <p>Settings</p>
+        </a>
+    </div>
 </body>
+
 </html>
